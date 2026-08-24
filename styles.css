@@ -41,20 +41,20 @@ a{
 /* mabo-dofu.html */
 
 .food-title{
-  width:700px;
+  width:100vw;
   text-align: center;
   font-family:Arial, Helvetica, sans-serif;
   padding-bottom:10px;
 }
 
 .image-with-desc{
-  width:700px;
+  width:100vw;
   text-align:center;
 }
 .image-with-desc img{
-  float:left;
-  margin-right:20px;
+  margin: 0 20px;
 }
+
 .image-with-desc h2{
   height:50%;
   padding-bottom:20px;
@@ -62,9 +62,42 @@ a{
 
 .image-with-desc p{
   height:50%;
-  margin-bottom:190px;
 }
 
+.ingredients{
+  width:100vw;
+}
+.ingredients h2{
+  text-align:center;
+  margin-bottom:10px;
+}
 
+.ingredients ul, 
+.ingredients li{
+  width:70%;
+  margin:auto;
+}
+.ingredients li{
+  padding: 1px 5px;
+  border: 1px solid black;
+}
 
-/* ! trying to find a way to put the image and text side bpy side without using flexbox  */
+.steps {
+  width:100vw;
+  margin:auto;
+}
+
+.steps h2{
+  text-align:center;
+}
+.steps ul,
+.steps li{
+  width: 70%;
+  padding: 10px 0;
+}
+
+.steps li{
+  padding: 1px 5px;
+  border: 1px solid black;
+  margin-top:1px;
+}
