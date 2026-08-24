@@ -55,10 +55,16 @@ a{
   float:left;
   margin-right:20px;
 }
-.image-with-desc h2,
-.image-with-desc p{
-  width:auto;
-  
+.image-with-desc h2{
+  height:50%;
+  padding-bottom:20px;
 }
+
+.image-with-desc p{
+  height:50%;
+  margin-bottom:190px;
+}
+
+
 
 /* ! trying to find a way to put the image and text side bpy side without using flexbox  */
